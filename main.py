@@ -62,5 +62,5 @@ class PongApp(App):
         game.serve()
         Clock.schedule_interval(game.update, 1.0/60.0)
         return game
-
-PongApp().run() 
+        
+PongApp().run()  
